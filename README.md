@@ -17,7 +17,8 @@ c
 These are constants defining the maximum length of a command and the maximum number of arguments.
 
 c
-Copy code
+
+
 void execute_command(char *command, char **arguments, int background) {
     pid_t pid = fork();
 
