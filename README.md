@@ -10,7 +10,8 @@ c
 These are the standard C libraries included for input/output, memory allocation, string manipulation, process creation, and inter-process communication.
 
 c
-Copy code
+
+
 #define MAX_COMMAND_LENGTH 100
 #define MAX_ARGUMENTS 10
 These are constants defining the maximum length of a command and the maximum number of arguments.
