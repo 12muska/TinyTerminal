@@ -52,7 +52,8 @@ void execute_command(char *command, char **arguments, int background) {
 This function is responsible for executing a command. It forks a new process, and the child process uses execvp to execute the command with its arguments. The parent process either waits for the child to complete or prints a message for background processes.
 
 c
-Copy code
+
+
 int main() {
     char input[MAX_COMMAND_LENGTH];
     char *arguments[MAX_ARGUMENTS];
